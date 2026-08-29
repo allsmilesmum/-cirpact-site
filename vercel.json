@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "rm -rf _site _tmp && mkdir -p _site _tmp && unzip -q -o \"cirpact-deploy 2.zip\" -d _tmp && cp -R _tmp/cirpact/. _site/",
+  "outputDirectory": "_site"
+}
